@@ -1,0 +1,58 @@
+.banner-section{
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1305px;
+    position: relative;
+    width: 100%;
+    }
+.bannerHeadding{
+    color: #1f1f1f;
+    font-size: 5.25rem;
+    line-height: 5.75rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+   
+   
+}
+
+.bannerText{
+    color: #1f1f1f;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+.bannerBtn {
+	border-radius: 4px;
+	text-transform: none;
+	text-align: center;
+	max-width: 320px;
+	min-width: unset;
+	-webkit-transition: none;
+	transition: none;
+	color: #fff;
+	background-color: #ff6f3c;
+	box-shadow: inset 0 0 0 1px #ff6f3c;
+	/* font-size: 1rem; */
+	/* line-height: 1.5rem; */
+
+	font-weight: 700;
+	letter-spacing: -0.1px;
+	padding: 12px 32px;
+	border: 2px solid #ff6f3c;
+	font-size: 20px;
+	height: 72px;
+	line-height: 28px;
+	margin-right: 10px;
+	vertical-align: top;
+	width: 238px;
+}
+
+.bannerBtn:hover{
+    text-decoration: none;
+    color:#fff;
+    border:none;
+}

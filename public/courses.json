@@ -1,0 +1,40 @@
+[
+    {
+        "category_id":"1",
+        "course_id":"01",
+        "thumbnail":"https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Java Fundamentals Course",
+        "video":"https://www.youtube.com/embed/BGTx91t8q50",
+        "author":"Navin",
+        "authorImage":"https://media.licdn.com/dms/image/D5603AQEsuxJuw4mB3A/profile-displayphoto-shrink_200_200/0/1680175458890?e=1694649600&v=beta&t=1OZuP4iam0OuwBZWFbYLkpj2mfjlA6n2QymW0kFkz0E"
+    },
+    {
+        "category_id":"4",
+        "course_id":"02",
+        "thumbnail":"https://images.pexels.com/photos/10845119/pexels-photo-10845119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Data Structure Full Couurse",
+        "video":"https://www.youtube.com/embed/B31LgI4Y4DQ",
+        "author":"MycodeSchool",
+        "authorImage":"https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg"
+    },
+    {
+        "category_id":"2",
+        "course_id":"03",
+        "thumbnail":"https://images.pexels.com/photos/11035386/pexels-photo-11035386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"CSS All You Need To Know",
+        "video":"https://www.youtube.com/embed/OXGznpKZ_sA",
+        "author":"Dave Gray",
+        "authorImage":"https://media.licdn.com/dms/image/C4E03AQE1alcnvZJD1Q/profile-displayphoto-shrink_200_200/0/1516307656437?e=1694649600&v=beta&t=SRu78NuMRGudRdLFr-mR9q4aRk9EU8caQgEvb1Fvnno"
+    },
+    {
+        "category_id":"3",
+        "course_id":"04",
+        "thumbnail":"https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Learn UI with Figma",
+        "video":"https://www.youtube.com/embed/jwCmIBJ8Jtc",
+        "author":"Joseph Brendan",
+        "authorImage":"https://pbs.twimg.com/profile_images/1494376117360287745/y6Vgm-et_400x400.jpg"
+    }
+]
+
+

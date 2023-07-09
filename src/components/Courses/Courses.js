@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Courses.css';
 import Category from './Category/Category';
+import SingleCourses from './SingleCourses/SingleCourses';
 const Courses = () => {
+    const[courses, setCourses]=useState([])
+    useEffect(()=>{
+        fetch('courses.json')
+        .then(res=>res.json())
+        .then(data=>setCourses(data))
+
+    },[])
     return (
         <>
                 <section class="courses-section py-5">
@@ -22,7 +30,27 @@ const Courses = () => {
                         </div>
                     </div>
                 </section>     
-                <Category></Category>       
+                <Category></Category>   
+
+    <section className="all-courses-section">
+        <div class="container">
+            <div class="coures-wrapper">
+                <div class="row">
+                    {   
+                        courses.map(course=>
+                                <SingleCourses
+                                    key={course.course_id}
+                                    courseData={course}
+                                ></SingleCourses>
+                            )        
+
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+                
+                    
         </>
     );
 };

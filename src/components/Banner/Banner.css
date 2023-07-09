@@ -58,3 +58,11 @@
     color:#fff;
     border:none;
 }
+.banner-img{
+    width: 70%;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    margin-left: 25%;
+}

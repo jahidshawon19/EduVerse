@@ -1,0 +1,33 @@
+[
+    {
+        "id":"1",
+        "title":"Core Programming"
+    },
+    {
+        "id":"2",
+        "title":"Web Design"
+       
+        
+    },
+    {
+        "id":"3",
+        "title":"UI/UX Design"
+    },
+    {
+        "id":"4",
+        "title":"Algorithm & Data structure"
+    },
+    {
+        "id":"5",
+        "title":"Backend Development"
+    },
+    {
+        "id":"6",
+        "title":"Frontend Development"
+    },
+    {
+        "id":"7",
+        "title":"MS Office"
+        
+    }
+]

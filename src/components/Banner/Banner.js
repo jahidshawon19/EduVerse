@@ -5,13 +5,13 @@ import bannerPic from '../../assests/banner pic.png';
 const Banner = () => {
     return (
         <>
-            <div className='container-fluid'>
+            <div className='container-fluid banner-container'>
                 <div className='row banner-section py-5'>
                     
                     <div className='col-lg-6'>
                         <div className='banner-content'>
-                            <h1 className='bannerHeadding'>Learn without limits</h1>
-                            <p className='bannerText'>Start, switch, or advance your career with more than 5,800 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+                            <h1 className='bannerHeadding'>Expand Your Horizons</h1>
+                            <p className='bannerText'>Join Thousands of Learners who have Transformed their Skills through Crash Courses.</p>
                             <button className='btn bannerBtn'>Join for Free</button>
                         </div>
                     </div>

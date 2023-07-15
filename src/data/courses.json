@@ -35,18 +35,76 @@
         "description":"Are you eager to master the art of web design and create visually stunning websites? Our CSS Mastery course is designed to take your CSS skills to the next level, providing you with a comprehensive understanding of Cascading Style Sheets and empowering you to create beautiful, responsive, and professional-looking web pages.Whether you're a beginner with no prior CSS experience or an experienced web developer looking to enhance your styling abilities, this course is tailored to meet your needs. Our expert instructors have meticulously crafted a curriculum that covers all aspects of CSS, from basic styling to advanced layout techniques.",
         "enroll":"45 students"
     },
+
     {
-        "category_id":"3",
+        "category_id":"6",
         "course_id":"04",
         "thumbnail":"https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "course_title":"Learn UI with Figma",
         "video":"https://www.youtube.com/embed/jwCmIBJ8Jtc",
         "author":"Joseph Brendan",
-        "authorImage":"https://pbs.twimg.com/profile_images/1494376117360287745/y6Vgm-et_400x400.jpg",
+        "authorImage":"https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
         "time":"10hr 16mins",
         "description":"Are you passionate about creating intuitive and visually appealing user interfaces? Do you want to design digital experiences that captivate users and drive engagement? Our UI/UX Design course is designed to equip you with the skills and knowledge to craft seamless and user-centered designs for websites, mobile apps, and other digital platforms.Whether you're a beginner with a creative eye or an experienced designer looking to enhance your UI/UX skills, this course is tailored to meet your needs. Our expert instructors have meticulously crafted a curriculum that covers all aspects of UI/UX design, from user research and wireframing to prototyping and usability testing.",
-        "enroll":"67 students"
+        "enroll":"57 students"
+    },
+
+    {
+        "category_id":"3",
+        "course_id":"05",
+        "thumbnail":"https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Start React By Doing Projects",
+        "video":"https://www.youtube.com/embed/u6gSSpfsoOQ",
+        "author":"Gavin Lon",
+        "authorImage":"https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
+        "time":"10hr 16mins",
+        "description":"Learn React in this full course for beginners. React is one of the most popular JavaScript frameworks and this course is the perfect place to start your learning journey.You will learn everything you need to know to get started with React by building three different projects. We brought together three popular teachers for this course so you can learn from multiple perspectives.You can code React all in a web browser using Replit. Replit provided a grant that made this course possible.",
+        "enroll":"19 students"
+    },
+
+    {
+        "category_id":"5",
+        "course_id":"06",
+        "thumbnail":"https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Django Full Course",
+        "video":"https://www.youtube.com/embed/PtQiiknWUcI",
+        "author":"Dennis Ivy",
+        "authorImage":"https://media.licdn.com/dms/image/C5603AQFTu7o663GM-Q/profile-displayphoto-shrink_200_200/0/1629137196364?e=1694649600&v=beta&t=hUTTftKbzsrTn9iVNT5cj3rjZzOdAnN4qrmnpILhMBA",
+        "time": "11hr 40mins",
+        "description":"In this comprehensive course, you will learn how to build a social media website using Django, a powerful Python web framework. Django provides a robust foundation for developing complex web applications quickly and efficiently, making it an ideal choice for creating social media platforms. Throughout this course, you will gain hands-on experience by working on a real-world project, applying the concepts and techniques taught.",
+        "enroll":"184 students"
+    },
+
+
+
+    {
+        "category_id":"8",
+        "course_id":"08",
+        "thumbnail":"https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Machine Learning Basics",
+        "video":"https://www.youtube.com/embed/7eh4d6sabA0",
+        "author":"Mosh",
+        "authorImage":"https://media.licdn.com/dms/image/D5603AQHFR80BA1pOQg/profile-displayphoto-shrink_200_200/0/1678374692344?e=1694649600&v=beta&t=wHcLS0syYqVvM4JbnJBsly6AmONxASGv__iMtx1heEk",
+        "time":"50 mins",
+        "description":"The Machine Learning Fundamentals course is designed to provide you with a solid foundation in the principles and techniques of machine learning. Machine learning is a subfield of artificial intelligence that focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without explicit programming. In this course, you will learn both the theoretical concepts and practical implementation of various machine learning algorithms.",
+        "enroll":"54 students"
+    },
+
+    {
+        "category_id":"7",
+        "course_id":"07",
+        "thumbnail":"https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"MS Excel for Placement",
+        "video":"https://www.youtube.com/embed/ormRboQsB-I",
+        "author":"IT",
+        "authorImage":"https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
+        "time":"7hr 10mins",
+        "description":"Welcome to the The Beginner's Guide course  to Excel. This Excel Full Course enables you to Learn MS Excel in simple and easy steps. In this Microsoft Excel Basics Tutorial series we will start from the basics and gradually move towards the Expert level in Microsoft Excel. This MS Excel course provides the Beginners to Intermediate Excel Skills, Tips, and Tricks. In this course we will learn how to Enter and edit Excel data, Format numbers, fonts and alignment, Make simple pivot tables and charts, Create simple Excel formulas, How to Use Excel Functions IF and VLOOKUP. Learn common Excel functions used in any Office, How to Create dynamic reports, Build Excel formulas to analyze date, text fields, values and arrays and much more advanced stuff.",
+        "enroll":"184 students"
     }
+
+
 ]
+
 
 

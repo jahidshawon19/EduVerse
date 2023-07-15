@@ -1,7 +1,27 @@
-body, p a {
+body{
+  font-family: 'Lato', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Roboto', sans-serif;
+.home-btn{
+  line-height: 35px;
+  margin-left: 6px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 6px 10px 6px;
+  background-color: #6BE69B;
+  transition: all ease .4s;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.09);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border: 1px solid transparent;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 180px;
+  overflow: hidden;
 }

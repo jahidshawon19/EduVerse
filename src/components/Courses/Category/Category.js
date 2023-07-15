@@ -56,7 +56,7 @@ const Category = () => {
         {
             categories.map(cat=>
                 <div key={cat.id}>
-                <a href="/" className="btn btn-success">{cat.title}</a>
+                <a href="/" className="btn btn-success home-btn">{cat.title}</a>
                 </div>  
                 )
 

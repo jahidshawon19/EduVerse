@@ -29,5 +29,9 @@
         "category_id":"7",
         "title":"MS Office"
         
+    },
+    {
+        "category_id":"8",
+        "title":"Machine Learning"
     }
 ]

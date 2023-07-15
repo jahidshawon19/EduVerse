@@ -1,11 +1,12 @@
 import React from 'react';
 import { HiSearch } from "react-icons/hi";
 import './Navbar.css'; 
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
                 <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">Learning Edge</a>
+                <a class="navbar-brand" href="#">EduVerse</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -23,7 +24,7 @@ const Navbar = () => {
                     <ul class="navbar-nav ml-auto">
                   
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <Link class="nav-link" to="/">Home</Link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Courses</a>

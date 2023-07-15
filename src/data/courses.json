@@ -1,0 +1,52 @@
+[
+    {
+        "category_id":"1",
+        "course_id":"01",
+        "thumbnail":"https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Java Fundamentals Course",
+        "video":"https://www.youtube.com/embed/BGTx91t8q50",
+        "author":"Navin",
+        "authorImage":"https://media.licdn.com/dms/image/D5603AQEsuxJuw4mB3A/profile-displayphoto-shrink_200_200/0/1680175458890?e=1694649600&v=beta&t=1OZuP4iam0OuwBZWFbYLkpj2mfjlA6n2QymW0kFkz0E",
+        "time":"12hr 1min",
+        "description":"Are you eager to learn Java programming and gain a strong foundation in this versatile and widely-used language? Look no further! Our Java Fundamentals course is designed to provide you with a comprehensive understanding of Java, equipping you with the essential skills to embark on your programming journey.Whether you're a beginner with no prior programming experience or an experienced developer looking to expand your skill set, this course is tailored to meet your needs. Our expert instructors have carefully crafted a curriculum that covers all the fundamental concepts of Java in a clear and concise manner.",
+        "enroll":"23 students"
+    },
+    {
+        "category_id":"4",
+        "course_id":"02",
+        "thumbnail":"https://images.pexels.com/photos/10845119/pexels-photo-10845119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Data Structure Full Couurse",
+        "video":"https://www.youtube.com/embed/B31LgI4Y4DQ",
+        "author":"MycodeSchool",
+        "authorImage":"https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
+        "time":"9hr 46mins",
+        "description":"Are you ready to delve into the fascinating world of data structures and enhance your programming skills? Our comprehensive Data Structures course is designed to equip you with the knowledge and tools to effectively organize and manipulate data, enabling you to write efficient and optimized code.Whether you're a beginner looking to grasp the fundamentals or an experienced developer seeking to deepen your understanding, this course provides a solid foundation in data structures. Our expert instructors have meticulously designed a curriculum that covers a wide range of essential data structures and their associated algorithms.",
+        "enroll":"10 students"
+    },
+    {
+        "category_id":"2",
+        "course_id":"03",
+        "thumbnail":"https://images.pexels.com/photos/11035386/pexels-photo-11035386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"CSS All You Need To Know",
+        "video":"https://www.youtube.com/embed/OXGznpKZ_sA",
+        "author":"Dave Gray",
+        "authorImage":"https://media.licdn.com/dms/image/C4E03AQE1alcnvZJD1Q/profile-displayphoto-shrink_200_200/0/1516307656437?e=1694649600&v=beta&t=SRu78NuMRGudRdLFr-mR9q4aRk9EU8caQgEvb1Fvnno",
+        "time":"11hr 8mins",
+        "description":"Are you eager to master the art of web design and create visually stunning websites? Our CSS Mastery course is designed to take your CSS skills to the next level, providing you with a comprehensive understanding of Cascading Style Sheets and empowering you to create beautiful, responsive, and professional-looking web pages.Whether you're a beginner with no prior CSS experience or an experienced web developer looking to enhance your styling abilities, this course is tailored to meet your needs. Our expert instructors have meticulously crafted a curriculum that covers all aspects of CSS, from basic styling to advanced layout techniques.",
+        "enroll":"45 students"
+    },
+    {
+        "category_id":"3",
+        "course_id":"04",
+        "thumbnail":"https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "course_title":"Learn UI with Figma",
+        "video":"https://www.youtube.com/embed/jwCmIBJ8Jtc",
+        "author":"Joseph Brendan",
+        "authorImage":"https://pbs.twimg.com/profile_images/1494376117360287745/y6Vgm-et_400x400.jpg",
+        "time":"10hr 16mins",
+        "description":"Are you passionate about creating intuitive and visually appealing user interfaces? Do you want to design digital experiences that captivate users and drive engagement? Our UI/UX Design course is designed to equip you with the skills and knowledge to craft seamless and user-centered designs for websites, mobile apps, and other digital platforms.Whether you're a beginner with a creative eye or an experienced designer looking to enhance your UI/UX skills, this course is tailored to meet your needs. Our expert instructors have meticulously crafted a curriculum that covers all aspects of UI/UX design, from user research and wireframing to prototyping and usability testing.",
+        "enroll":"67 students"
+    }
+]
+
+

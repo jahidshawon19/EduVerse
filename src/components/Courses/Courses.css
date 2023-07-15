@@ -65,11 +65,12 @@
     align-items: center;
     -webkit-box-align: center;
 }
+
 .author-thumnail a{
     display: block;
 }
 .author-thumnail a img{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
 }
 .author-name{
@@ -102,4 +103,8 @@
 .course-title a:hover{
     color:rgb(16, 78, 16);
     text-decoration: none;
+}
+
+{
+
 }

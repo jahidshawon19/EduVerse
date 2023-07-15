@@ -1,33 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SingleCourses = ({courseData}) => {
-    const {thumbnail,course_title,author,authorImage} = courseData
+    const {course_id,thumbnail,course_title,author,authorImage, time} = courseData
     return (
         <>
                     <div className="col-lg-3">
                         <div className="single-course">
                             <div className="course-img">
-                                <a href="">
+                                <Link to={`/details/${course_id}`}>
                                     <img src={thumbnail} alt=""/>
-                                </a>
+                                </Link>
                             </div>
                             <div className="course-content">
                                 <div className="course-author">
                                     <div className="author">
                                         <div className="author-thumnail">
-                                            <a href="">
+                                            <Link to={`/details/${course_id}`}>
                                                 <img src={authorImage} alt=""/>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="author-name">
                                             <a href="">{author}</a>
                                         </div>
                                     </div>
+                                  
                                 </div>
                                 <h4 className="course-title">
-                                    <a href="">{course_title}</a>
+                                    <Link to={`/details/${course_id}`}>{course_title}</Link>
                                 </h4>
                             </div>
+
+                            <Link to={`/details/${course_id}`} className='btn btn-outline-success btn-block'>Enroll</Link>
                         </div>
                     </div>            
         </>

@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Courses.css';
 import Category from './Category/Category';
 import SingleCourses from './SingleCourses/SingleCourses';
+import courses from '../../data/courses.json';
 const Courses = () => {
-    const[courses, setCourses]=useState([])
-    useEffect(()=>{
-        fetch('courses.json')
-        .then(res=>res.json())
-        .then(data=>setCourses(data))
 
-    },[])
     return (
         <>
                 <section class="courses-section py-5">
@@ -17,7 +12,7 @@ const Courses = () => {
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="courses-section-title">
-                                    <h2 className='main-title'>All <span>Courses</span> of Learning Edge</h2>
+                                    <h2 className='main-title'>All <span>Courses</span> of EduVerse</h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">

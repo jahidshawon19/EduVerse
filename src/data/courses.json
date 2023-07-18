@@ -37,7 +37,7 @@
     },
 
     {
-        "category_id":"6",
+        "category_id":"3",
         "course_id":"04",
         "thumbnail":"https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "course_title":"Learn UI with Figma",
@@ -50,7 +50,7 @@
     },
 
     {
-        "category_id":"3",
+        "category_id":"6",
         "course_id":"05",
         "thumbnail":"https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "course_title":"Start React By Doing Projects",

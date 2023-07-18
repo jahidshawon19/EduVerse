@@ -2,15 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
+import categories from '../../../data/category.json';
 
 const Category = () => {
-    const [categories, setCategories] = useState([])
-    useEffect(()=>{
-        fetch('category.json')
-        .then(res=>res.json())
-        .then(data=>setCategories(data))
-    },[])
+
     var settings = {
         dots: true,
         infinite: false,
@@ -50,7 +45,7 @@ const Category = () => {
 
 
 
-        <section class="category-section">
+      <section class="category-section">
         <div class="container">
         <Slider {...settings}>
         {
@@ -69,3 +64,5 @@ const Category = () => {
 };
 
 export default Category;
+
+

@@ -35,16 +35,14 @@ const Navbar = () => {
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
+                   
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Log in</a>
+                        <Link class="nav-link text-warning" to="/login">Log in</Link>
                     </li>
 
                    
                     <li class="nav-item">
-                        <button className='signUPBtn btn'><b>Join for Free</b></button>
+                        <Link className='signUPBtn btn text-light' to="/register"><b>Join for Free</b></Link>
                     </li>
                   
 

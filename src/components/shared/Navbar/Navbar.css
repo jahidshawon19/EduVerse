@@ -40,4 +40,5 @@
 .signUPBtn:hover{
     text-decoration: none;
     color:#fff;
+    border: 0;
 }

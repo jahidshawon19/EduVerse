@@ -58,6 +58,13 @@
     color:#fff;
     border:none;
 }
+.bannerBtn a{
+    color:#fff;
+}
+.bannerBtn a:hover{
+    text-decoration: none;
+    color:#fff;
+}
 .banner-img{
     width: 70%;
 }

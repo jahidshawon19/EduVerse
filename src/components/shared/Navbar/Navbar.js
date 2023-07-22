@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { HiSearch } from "react-icons/hi";
 import './Navbar.css'; 
 import { Link } from 'react-router-dom';
 import logo from '../../../assests/logo.png';
+import {AuthContext} from '../../../context/UserContext'; 
 
 const Navbar = () => {
+    const {user, logOut} = useContext(AuthContext)
+
+    const handleLogOut = ()=>{
+        logOut()
+        .then(()=>{
+
+        })
+        .catch((err)=>{
+            console.log(err)
+        })
+    }
     return (
                 <nav class="navbar navbar-expand-lg">
                 <Link class="navbar-brand" to="/">
@@ -37,12 +49,19 @@ const Navbar = () => {
                     </li>
                    
                     <li class="nav-item">
-                        <Link class="nav-link text-warning" to="/login">Log in</Link>
+                        {
+                            !user?.email && <Link class="nav-link text-warning" to="/login">Log in</Link>
+                        }
+                        
                     </li>
 
-                   
                     <li class="nav-item">
-                        <Link className='signUPBtn btn text-light' to="/register"><b>Join for Free</b></Link>
+                        {
+                            user?.email?<button className='btn btn-sm btn-danger' onClick={handleLogOut}>Log out</button>
+                            :
+                            <Link className='signUPBtn btn text-light' to="/register"><b>Join for Free</b></Link>
+                        }
+                        
                     </li>
                   
 

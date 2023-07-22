@@ -4,6 +4,8 @@ import Home from '../components/Home/Home';
 import CourseDetails from "../components/Courses/CourseDetails/CourseDetails";
 import Login from "../components/Login/Login";
 import Register from '../components/Register/Register';
+
+
 export const router = createBrowserRouter([
     {
         path:'/',
@@ -16,7 +18,8 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/details/:id',
-                element:<CourseDetails></CourseDetails>,
+                // element: <PrivateRoute><CourseDetails></CourseDetails></PrivateRoute>
+                element: <CourseDetails></CourseDetails>
                 
             },
             {

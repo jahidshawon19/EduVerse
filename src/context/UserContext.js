@@ -8,7 +8,7 @@ const auth = getAuth(app)
 
 const UserContext = ({children}) => {
     const [user, setuser] = useState(null)
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
 
 

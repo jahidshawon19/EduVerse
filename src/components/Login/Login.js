@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css';
 import { useContext } from 'react';
 import {AuthContext} from '../../context/UserContext'; 
-import { useNavigate } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from "react-router-dom";
+
 
 const Login = () => {
 
     const {loginUser} = useContext(AuthContext)
-
-    const location = useLocation()
+    const [error, setError] = useState('')
     const navigate = useNavigate()
-    const from = location.state?.from?.pathname || '/' 
+    const location = useLocation()
+
+    const redirectedURL = location.state?.from?.pathname || '/'
+
 
     const handleLogin = (e)=>{
         e.preventDefault();
@@ -22,17 +24,23 @@ const Login = () => {
         .then(res=>{
             console.log(res.user)
             e.target.reset();
-            navigate(from , {replace:true})
+            setError('')
+            navigate(redirectedURL, {from: true})
         })
 
         .catch(err=>{
-            console.log(err)
+            setError(err.message)
         })
     }
     return (
         <>
     <section className="login-section py-5">
         <div className="container">
+            {
+                error &&<div class="alert alert-warning" id="passwordMismatchAlert" role="alert">
+                {error}
+            </div>
+            }
             <div className="register-login-wrapper">
                 <div className="row align-items-center">
                     <div className="col-lg-6">

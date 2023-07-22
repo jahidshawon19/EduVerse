@@ -1,14 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import '../Login/Login.css'; 
 import {AuthContext} from '../../context/UserContext'; 
 import { useNavigate } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
+
 const Register = () => {
 
     const {registerUser} = useContext(AuthContext)
-    const location = useLocation()
     const navigate = useNavigate()
-    const from = location.state?.from?.pathname || '/' 
+    const [error, setError] = useState('')
 
 
     const handleRegister = (e)=>{
@@ -17,29 +16,29 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         const confirmPassword = e.target.confirmPassword.value;
-        const passwordMismatchAlert = document.getElementById("passwordMismatchAlert");
         if(password !== confirmPassword){
-            passwordMismatchAlert.style.display = "block";
+            setError('Password and confirm password are not same')
             return
         }
-        passwordMismatchAlert.style.display = "none";
-        registerUser(email, password)
+
+        registerUser(email, password, userName)
         .then(res=>{
             console.log(res.user)
             e.target.reset()
-            navigate(from , {replace:true})
+            setError('')
+            navigate('/')
         })
         .catch(err=>{
-            console.log(err)
+            setError(err.message)
         })
     }
     return (
         <>
     <section className="login-section py-5">
         <div className="container">
-        <div class="alert alert-warning" id="passwordMismatchAlert" style={{"display": "none"}} role="alert">
-              Password and confirm password do not match.
-        </div>
+        {
+            error&&<div class="alert alert-warning" role="alert">{error}</div>
+        }
             <div className="register-login-wrapper">
                 <div className="row align-items-center">
                     <div className="col-lg-6">

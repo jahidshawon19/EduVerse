@@ -41,7 +41,7 @@ const Register = () => {
         }
             <div className="register-login-wrapper">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-none d-md-block">
                         <div className="register-login-img">
                             <div className="image">
                                 <img src="https://images.pexels.com/photos/6393342/pexels-photo-6393342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />

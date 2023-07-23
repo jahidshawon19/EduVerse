@@ -123,3 +123,20 @@
     font-weight: 400;
     text-align: justify;
 }
+
+@media screen and (max-width: 767px) {
+    .video{
+        width: 381px;
+        height: 416px;
+    }
+    .section-page-banner {
+        height: 183px;
+        padding-top: 0;
+    }
+    .page-banner-content h2 {
+        font-size: 34px;
+    }
+    .video iframe {
+        height: 374px;
+    }
+}

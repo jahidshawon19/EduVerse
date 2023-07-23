@@ -72,3 +72,24 @@
     border: 1px solid rgba(48,146,85,0.2);
     color:rgb(0, 131, 0)
 }
+
+@media screen and (max-width: 767px) {
+    .register-login-form .title {
+        font-size: 22px;
+    }
+    .single-form {
+        margin-top: 14px;
+        width: 213px;
+        margin-left: -37px;
+    }
+    .single-form input {
+        height: 41px;
+        padding: 0 19px;
+    }
+    .register-login-form {
+        margin-top: 31px;
+    }
+    .register-login-form .form-wrapper {
+        padding-top: 0px;
+      }
+}

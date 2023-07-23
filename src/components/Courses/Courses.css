@@ -105,6 +105,14 @@
     text-decoration: none;
 }
 
-{
-
+@media screen and (max-width: 767px) {
+    .courses-section-title .main-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+     
+    }
+    .courses-section-searchbar input {
+        height: 48px;
+    }
+    
 }

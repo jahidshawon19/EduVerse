@@ -2,12 +2,12 @@
     background-color: #FFFFFF;
     border-bottom: 1px solid #E0E0E0
 }
-.nav-item a{
+.nav-item .nav-link{
     font-weight: 400;
     letter-spacing: 0;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    color: #1F1F1F;
+    
 }
 
 .inputSearch{

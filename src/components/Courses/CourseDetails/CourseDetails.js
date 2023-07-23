@@ -22,13 +22,13 @@ const CourseDetails = () => {
     return (
         <>
                 <div className="section-page-banner">
-                    <img className="shape-1" src={shape1} alt=""/>
-                    <img className="shape2" src={shape2} alt=""/>
+                    <img className="shape-1 d-none d-md-block" src={shape1} alt=""/>
+                    <img className="shape2 d-none d-md-block" src={shape2} alt=""/>
                     <div className="container">
                         <div className="page-banner-content">
                             <h2>{details.course_title}</h2>
                         </div>
-                        <img className="shape-3" src={shape3} alt=""/>
+                        <img className="shape-3 d-none d-md-block" src={shape3} alt=""/>
                         
                     </div>
                 </div>

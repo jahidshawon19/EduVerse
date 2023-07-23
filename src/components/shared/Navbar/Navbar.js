@@ -19,7 +19,7 @@ const Navbar = () => {
         })
     }
     return (
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg navbar-light">
                 <Link class="navbar-brand" to="/">
                     <img src={logo} alt="eduverlogo"/>
                 </Link>
@@ -29,10 +29,10 @@ const Navbar = () => {
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                    <div className='menuSearch'>
+                    <div className='menuSearch d-none d-md-block'>
                         <input className='inputSearch' type='text'  placeholder='What do you want to learn?'/>
                     </div>
-                    <button className='seacrhBtn   btn'><HiSearch></HiSearch></button>
+                    <button className='seacrhBtn btn d-none d-md-block'><HiSearch></HiSearch></button>
              
 
                     </ul>
@@ -40,13 +40,13 @@ const Navbar = () => {
                     <ul class="navbar-nav ml-auto">
                   
                     <li class="nav-item">
-                        <Link class="nav-link" to="/">Home</Link>
+                        <Link class="nav-link text-dark" to="/">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
+                        <Link class="nav-link text-dark" to="/courses">Courses</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        {/* <a class="nav-link text-dark" href="#">Blog</a> */}
                     </li>
                    
                     <li class="nav-item">

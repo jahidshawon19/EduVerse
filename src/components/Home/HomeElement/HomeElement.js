@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomeElement.css'; 
 import homegraph from '../../../assests/homegraph.png';
+import { Link } from 'react-router-dom';
 const HomeElement = () => {
     return (
         <>
@@ -16,7 +17,7 @@ const HomeElement = () => {
                                 We serve you, the curious reader who loves to learn new things. Rouen is home to thousands of independent voices, and we combine humans and technology to find the best reading for you
                             </p>
 
-                            <a href="/" class="btn btn-success home-btn mt-3">CHECK IT NOW</a>
+                            <Link to="/courses" class="btn btn-success home-btn mt-3">CHECK IT NOW</Link>
                             </div>
                         </div>
 

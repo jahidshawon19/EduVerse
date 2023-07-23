@@ -37,3 +37,21 @@
     pointer-events: none;
     z-index: -1;
 }
+
+@media screen and (max-width: 767px) {
+    .section-home-element {
+        margin-top: -26px !important;
+    }
+    .home-element-title{
+        font-size: 35px;
+    }
+    .element-content p{
+        font-size: 14px;
+     
+    }
+    .home-element-img img {
+        margin-top: 15%;
+        height: 55%;
+       
+    }
+}

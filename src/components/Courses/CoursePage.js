@@ -8,7 +8,11 @@ import SingleCourses from './SingleCourses/SingleCourses';
 import courseData from '../../data/courses.json';
 import categories from '../../data/category.json';
 
-const Courses = () => {
+import shape1 from '../../assests/shape-1.png';
+import shape2 from '../../assests/shape-2.png';
+import shape3 from '../../assests/shape-3.png';
+
+const CoursePage = () => {
     var settings = {
         dots: true,
         infinite: false,
@@ -71,6 +75,17 @@ const Courses = () => {
     }, []);
     return (
         <>
+                        <div className="section-page-banner">
+                    <img className="shape-1 d-none d-md-block" src={shape1} alt=""/>
+                    <img className="shape2 d-none d-md-block" src={shape2} alt=""/>
+                    <div className="container">
+                        <div className="page-banner-content">
+                            <h2>Explore Our Courses</h2>
+                        </div>
+                        <img className="shape-3 d-none d-md-block" src={shape3} alt=""/>
+                        
+                    </div>
+                </div>
                 <section class="courses-section py-5">
                     <div class="container">
                         <div class="row">
@@ -116,7 +131,7 @@ const Courses = () => {
             <div class="coures-wrapper">
                 <div class="row">
                     {   
-                        filteredCourses.slice(0, 8).map(course=>
+                        filteredCourses.map(course=>
                                 <SingleCourses
                                     key={course.course_id}
                                     courseData={course}
@@ -134,4 +149,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default CoursePage;

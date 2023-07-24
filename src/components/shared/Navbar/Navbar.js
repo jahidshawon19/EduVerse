@@ -46,7 +46,9 @@ const Navbar = () => {
                         <Link class="nav-link text-dark" to="/courses">Courses</Link>
                     </li>
                     <li class="nav-item">
-                        {/* <a class="nav-link text-dark" href="#">Blog</a> */}
+                        {
+                            user?.email && <small class="nav-link text-secondary">{user?.displayName}</small>
+                        }
                     </li>
                    
                     <li class="nav-item">

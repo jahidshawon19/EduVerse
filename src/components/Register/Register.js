@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Register = () => {
 
-    const {registerUser} = useContext(AuthContext)
+    const {registerUser, updateUserProfile} = useContext(AuthContext)
     const navigate = useNavigate()
     const [error, setError] = useState('')
 
@@ -13,6 +13,7 @@ const Register = () => {
     const handleRegister = (e)=>{
         e.preventDefault()
         const userName = e.target.userName.value;
+        const contactNumber = e.target.phone.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
         const confirmPassword = e.target.confirmPassword.value;
@@ -24,13 +25,25 @@ const Register = () => {
         registerUser(email, password, userName)
         .then(res=>{
             console.log(res.user)
-            e.target.reset()
             setError('')
             navigate('/')
+            e.target.reset()
+            handleUpdateUserProfile(userName, contactNumber)
         })
         .catch(err=>{
             setError(err.message)
         })
+    }
+
+    const handleUpdateUserProfile=(name, number)=>{
+        const profile={
+            displayName:name,
+            number:number,
+            
+        }
+        updateUserProfile(profile)
+        .then(()=>{})
+        .catch(()=>{})
     }
     return (
         <>
@@ -61,6 +74,10 @@ const Register = () => {
                                     <div className="single-form">
                                         <input type="text" placeholder="Email"
                                         name="email" required />
+                                    </div>
+                                    <div className="single-form">
+                                        <input type="text" placeholder="Mobile"
+                                        name="phone" required minLength={8} maxLength={8} />
                                     </div>
                                     <div className="single-form">
                                         <input type="password" placeholder="Password"

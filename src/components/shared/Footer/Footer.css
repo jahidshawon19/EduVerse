@@ -55,3 +55,16 @@
 .footer-widget ul li a:hover{
    color: #68E199;
 }
+
+@media only screen and (max-width: 480px) {
+    .footer-widget .footer-widget-title {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+    .footer-widget ul li {
+        padding-bottom: 8px;
+    }
+    .footer-widget ul li a {
+        font-size: 10px;
+    }
+}
